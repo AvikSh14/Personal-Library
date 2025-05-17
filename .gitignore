@@ -1,40 +1,157 @@
-HELP.md
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Spring Boot Temporary Files #
+/target/
+/build/
 .gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/modules.xml
+.idea/libraries/
+.idea/inspectionProfiles/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Gradle build folder
+.gradle
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Local configuration file (e.g., database passwords)
+application-local.properties
+application*.yml
+application*.yaml
+
+# IntelliJ IDEA files
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.iws
 
-### NetBeans ###
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Tt]rash*
+
+# Editor backup files
+*~
+\#*#
+.*.swp
+.swo
+
+# Maven files (if you accidentally have any)
+/mvnw
+/mvnw.cmd
+/pom.xml.versionsBackup
+
+# Java 9+ module descriptor
+module-info.class
+
+# Cache
+/out/
+
+#HSQLDB Files
+*.script
+*.properties.lck
+
+# Ignore files in all subdirectories named target
+target/
+
+# Ignore directories named "bin"
+bin/
+
+# Ignore anything in the .settings directory
+.settings/
+
+# Ignore Eclipse metadata
+.metadata/
+
+# Ignore netbeans cache
 /nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 
-### VS Code ###
-.vscode/
+# Ignore report files
+/reports/
 
-### Kotlin ###
-.kotlin
+# Ignore native library directories
+/libnative/
+
+# Ignore junit reports
+/junit/
+
+# Ignore custom artifacts
+/custom_artifacts/
+
+# Ignore temporary files created by gradle
+/tmp/
+
+# Ignore files with the .orig extension
+*.orig
+
+# Ignore files with the .backup extension
+*.backup
+
+# Ignore files with the .old extension
+*.old
+
+# Ignore files with the .new extension
+*.new
+
+# Ignore files with the .copy extension
+*.copy
+
+# Ignore files with the .patch extension
+*.patch
+
+# Ignore files with the .rej extension
+*.rej
+
+# Ignore files with the .releaseBackup extension
+*.releaseBackup
+
+# Ignore files with the .releaseCopy extension
+*.releaseCopy
+
+# Ignore files with the .releaseOld extension
+*.releaseOld
+
+# Ignore files with the .releaseNew extension
+*.releaseNew
+
+# Ignore files with the .releasePatch extension
+*.releasePatch
+
+# Ignore files with the .releaseRej extension
+*.releaseRej
+
+# Ignore files with the .releaseOrig extension
+*.releaseOrig
+
+# Ignore files with the .releaseCopy extension
+*.releaseCopy
+
+# Ignore files with the .releasePatch extension
+*.releasePatch
+
+# Ignore files with the .releaseRej extension
+*.releaseRej
+
+# Ignore files with the .releaseOrig extension
+*.releaseOrig
+
+# Ignore files with the .releaseCopy extension
+*.releaseCopy
+
+# Ignore files with the .releasePatch extension
+*.releasePatch
+
+# Ignore files with the .releaseRej extension
+*.releaseRej
+
+# Ignore files with the .releaseOrig extension

@@ -79,7 +79,7 @@ class BookController(
         }
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     fun updateBook(@PathVariable id: Long, @Valid @RequestBody updatedBook: Book): ResponseEntity<Book> {
         logger.info("Updating book with id {}", id)
         return try {
